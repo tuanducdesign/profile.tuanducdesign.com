@@ -73,6 +73,7 @@
     <link rel="dns-prefetch" href="//yt3.ggpht.com" />
     <link rel="dns-prefetch" href="//fonts.gstatic.com" />
     <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
     <link rel="preconnect" href="https://cdn.tuanducdesign.com" />
     <link rel="preconnect" href="https://img.youtube.com" />
@@ -81,6 +82,7 @@
     <link rel="preconnect" href="https://yt3.ggpht.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
     <link rel="preload" href="https://img.youtube.com/vi/Pz3tm92Zpvs/0.jpg" as="image" />
     <link rel="preload" href="https://cdn.tuanducdesign.com/assets/images/tuanducdesign.jpg" as="image" />
     <link rel="preload" href="https://cdn.tuanducdesign.com/assets/images/muathongminh.jpg" as="image" />
@@ -105,13 +107,17 @@
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js" as="script" />
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" as="script" />
     <link rel="preload" href="https://cdn.tuanducdesign.com/assets/js/main.min.js" as="script" />
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js@2.4.0/dist/defer_plus.min.js" as="script" />
+    <script src="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js@2.4.0/dist/defer_plus.min.js"></script>
+    <script>'IntersectionObserver'in window||document.write('<link rel="preload" href="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver" as="script" /><link rel="dns-prefetch" href="//polyfill.io" /><link rel="preconnect" href="https://polyfill.io" /><script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"><\/script>');</script>
+    <script>Defer.dom('img.lazyload',200,'loaded');</script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="56" itemscope="itemscope" itemtype="https://schema.org/WebPage" class="main v5">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top" role="navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope">
         <div class="container">
             <a href="https://about.tuanducdesign.com/" title="Trần Tuấn Đức" id="logo">
-                <img class="site-logo fade" data-src="https://cdn.tuanducdesign.com/assets/images/tuanducdesign.jpg" alt="Trần Tuấn Đức" width="50" loading="lazy" />
+                <img class="site-logo" src="https://cdn.tuanducdesign.com/assets/images/tuanducdesign.jpg" alt="Trần Tuấn Đức" width="50" loading="lazy" decoding="async" />
             </a>
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
             </button>
@@ -142,7 +148,7 @@
                 <div class="col-sm-12 text-center">
                     <h1 itemprop="name" class="info-landing">Hi! Mình là <span>Trần Tuấn Đức</span></h1>
                     <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-                        <img class="profile mmo-float img-thumbnail" src="https://cdn.tuanducdesign.com/assets/images/tuanducdesign.jpg" alt="Trần Tuấn Đức" loading="lazy" />
+                        <img class="profile mmo-float img-thumbnail" src="https://cdn.tuanducdesign.com/assets/images/tuanducdesign.jpg" alt="Trần Tuấn Đức" loading="lazy" decoding="async" />
                         <meta itemprop="url" content="https://cdn.tuanducdesign.com/assets/images/tuanducdesign.jpg" />
                         <meta itemprop="width" content="128" />
                         <meta itemprop="height" content="128" />
@@ -227,7 +233,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="https://muathongminh.net" target="_blank" rel="noreferrer" title="Mua Thông Minh">
-                                <img src="https://cdn.tuanducdesign.com/assets/images/muathongminh.jpg" alt="Mua Thông Minh" class="mmo-float img-thumbnail" loading="lazy" />
+                                <img src="https://cdn.tuanducdesign.com/assets/images/muathongminh.jpg" alt="Mua Thông Minh" class="mmo-float img-thumbnail" loading="lazy" decoding="async" />
                                 <div id="anhso1">Mua Thông Minh</div>
                             </a>
                         </div>
@@ -237,7 +243,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="https://traugacbep.vn" target="_blank" rel="noreferrer" title="Trâu Gác Bếp">
-                                <img src="https://cdn.tuanducdesign.com/assets/images/traugacbep.jpg" alt="Trâu Gác Bếp" class="mmo-float img-thumbnail" loading="lazy" />
+                                <img src="https://cdn.tuanducdesign.com/assets/images/traugacbep.jpg" alt="Trâu Gác Bếp" class="mmo-float img-thumbnail" loading="lazy" decoding="async" />
                                 <div id="anhso2">Trâu Gác Bếp</div>
                             </a>
                         </div>
@@ -247,7 +253,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="http://lachongvien.vn" target="_blank" rel="noreferrer" title="Lạc Hồng Viên">
-                                <img src="https://cdn.tuanducdesign.com/assets/images/lachongvien.jpg" alt="Lạc Hồng Viên" class="mmo-float img-thumbnail" loading="lazy" />
+                                <img src="https://cdn.tuanducdesign.com/assets/images/lachongvien.jpg" alt="Lạc Hồng Viên" class="mmo-float img-thumbnail" loading="lazy" decoding="async" />
                                 <div id="anhso3">Lạc Hồng Viên</div>
                             </a>
                         </div>
@@ -339,7 +345,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="https://thachpham.com/" target="_blank" rel="noreferrer" title="Thạch Phạm">
-                                <img src="https://cdn.tuanducdesign.com/assets/images/thachpham.png" alt="Thạch Phạm" class="mmo-float img-thumbnail" loading="lazy" />
+                                <img src="https://cdn.tuanducdesign.com/assets/images/thachpham.png" alt="Thạch Phạm" class="mmo-float img-thumbnail" loading="lazy" decoding="async" />
                                 <div id="lienketwb1">Thạch Phạm</div>
                             </a>
                         </div>
@@ -349,7 +355,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="https://myclass.vn" target="_blank" rel="noreferrer" title="My Class">
-                                <img src="https://cdn.tuanducdesign.com/assets/images/myclass.png" alt="My Class" class="mmo-float img-thumbnail" loading="lazy" />
+                                <img src="https://cdn.tuanducdesign.com/assets/images/myclass.png" alt="My Class" class="mmo-float img-thumbnail" loading="lazy" decoding="async" />
                                 <div id="lienketwb2">My Class</div>
                             </a>
                         </div>
@@ -359,7 +365,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="https://zendvn.com" target="_blank" rel="noreferrer" title="Zend">
-                                <img src="https://cdn.tuanducdesign.com/assets/images/zend.png" alt="Zend" class="mmo-float img-thumbnail" loading="lazy" />
+                                <img src="https://cdn.tuanducdesign.com/assets/images/zend.png" alt="Zend" class="mmo-float img-thumbnail" loading="lazy" decoding="async" />
                                 <div id="lienketwb3">Zend</div>
                             </a>
                         </div>
@@ -382,7 +388,7 @@
         <div class="box">
             <div class="row text-center">
                 <div class="col-sm-12">
-                    <iframe class="mmo-bando" onload='this.style.visibility="visible"' data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7451.479825628708!2d105.78735892285039!3d20.962957412878765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad28ea29211f%3A0x604fe71832a3e934!2zS2h1IMSRw7QgdGjhu4sgWGEgTGEsIFBow7pjIExhLCBIw6AgxJDDtG5nLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2sus!4v1519359932775"></iframe>
+                    <iframe class="mmo-bando" onload='this.style.visibility="visible"' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7451.479825628708!2d105.78735892285039!3d20.962957412878765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad28ea29211f%3A0x604fe71832a3e934!2zS2h1IMSRw7QgdGjhu4sgWGEgTGEsIFBow7pjIExhLCBIw6AgxJDDtG5nLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2sus!4v1519359932775"></iframe>
                 </div>
             </div>
         </div>
@@ -410,10 +416,10 @@
             </div>
         </div>
     </footer>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js" async="1"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js" async="1"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" async="1"></script>
-    <script type="text/javascript" src="https://cdn.tuanducdesign.com/assets/js/main.min.js" async="1"></script>
+    <script type="deferjs" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="deferjs" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js" async="1"></script>
+    <script type="deferjs" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js" async="1"></script>
+    <script type="deferjs" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" async="1"></script>
+    <script type="deferjs" src="https://cdn.tuanducdesign.com/assets/js/main.min.js" async="1"></script>
 </body>
 </html>
